@@ -19,8 +19,19 @@
 <nav>
   <div class=nav>
     <button class="glow-on-hover" type="button" onclick="window.location.href = 'landing-page/landing.html';"><h4>Home</h4></button>
-    <button class="glow-on-hover" type="button" onclick="window.location.href = 'https://reddit.com';"><h4>Login/Signup</h4></button>
-  </div>
+    <button class="glow-on-hover" type="button" onclick="myFunction()"><h4>Login/Signup</h4></button>
+  
+    <script>
+      function myFunction() {
+        var username = prompt("Please enter your username:", "");
+        if (username == null || username == "") {
+          prompt("We need something here...")
+        } else {
+          prompt("Hello " + username + "! Please enter your password");
+          alert("Welcome to Dad Jokes, " + username + "!" )
+        }
+      }
+      </script>  </div>
 </nav>
 <br>
 

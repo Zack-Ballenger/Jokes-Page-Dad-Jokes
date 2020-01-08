@@ -14,24 +14,26 @@
   <![endif]-->
 </head>
 
-<!-- <header class="DadJokes">
-<h1>Dad Jokes</h1>
-</header> -->
+
 
 <nav>
   <div class=nav>
-    <!-- <a href="#">Home</a>
-    <a href="#">Sign Up</a>
-    <a href="#">Login</a> -->
-    <!-- <button class="glow-on-hover" type="button"><h4>Home</h4></button> -->
-
-
     <button class="glow-on-hover" type="button" onclick="window.location.href = '../index.html';"><h4>Jokes</h4></button>
-
-    <button class="glow-on-hover" type="button"><h4>Login/Signup</h4></button>
-    <!-- <a href="#">Best of the Best</a>
-    <a href="#">Worst of the Worst</a> -->
-    
+    <button class="glow-on-hover" type="button" onclick="myFunction()"><h4>Login/Signup</h4></button>
+  
+    <script>
+      function myFunction() {
+        var username = prompt("Please enter your username:", "");
+        if (username == null || username == "") {
+          prompt("We need something here...")
+        } else {
+          prompt("Hello " + username + "! Please enter your password");
+          alert("Welcome to Dad Jokes, " + username + "!" )
+        }
+        // document.getElementById("demo").innerHTML = txt;
+      }
+      </script>
+  
   </div>
 </nav>
 <br>
@@ -40,13 +42,7 @@
 
 <body>
     
-  <!-- <div class="landingtext">
-    <p>By Dads</p>
-    <p>For Dads</p>
-    <p>Torture Your Children With..</p>
-    <br>
-    <h2>Dad Jokes</h2>
-    </div> -->
+ 
   
 
   <div class="container">
@@ -67,16 +63,6 @@
   <h2>
     by Manuel Pinto
   </h2> -->
-
-
-
-
-
-
-     
-  <!-- <div class="container"> -->
-
-    <!-- <img class="background" src="https://i.imgur.com/p57eXA4.jpg" style="width:100%" alt="a grey painted wall"> -->
 
     
     
