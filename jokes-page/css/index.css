@@ -249,7 +249,6 @@ header {
 }
 body {
   background-color: #938FA0;
-  border: 10px solid blue;
   background-image: url(https://img.pngio.com/transparent-fishnet-pattern-background-by-lovestrongartfan90-on-fishnet-pattern-transparent-894_894.png);
 }
 body .chevrons {
@@ -260,7 +259,6 @@ body .chevrons {
 }
 body .jokesinboxes {
   text-align: center;
-  border: 2px solid red;
   display: flex;
   justify-content: space-around;
   align-items: center;
